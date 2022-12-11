@@ -1,0 +1,33 @@
+nav {
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    border: 1px solid rgb(121, 120, 84);
+    background-color: rgba(0, 0, 0, 0.226);
+    display: grid;
+    place-items: center;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    box-shadow: 1px 2px 10px 1px rgb(121, 120, 84);
+    transition: var(--transition);
+    color: white;
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-menu {
+        display: none;
+    }
+}
