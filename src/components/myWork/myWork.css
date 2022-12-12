@@ -1,115 +1,55 @@
-#main-div {
-    /* border: 1px solid green; */
+#work-heading {
+    position: absolute;
+    margin: auto;
+    top: 10%;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    height: fit-content;
+    border-bottom: 1px solid;
+    font-size: 5vw;
+}
+
+#myWorkSect {
     width: 100%;
+    height: 800px;
+    background-image: url(/public/images/snow\ sarfa\ 2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: relative;
+    
+}
+
+
+#main-div-work {
+    /* border: 1px solid blue; */
+    width: fit-content;
+    position: absolute;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 60px;
-    row-gap: 40px;
-    padding: 0;
-    margin-top: 20px;
-
-}
-
-.speciality {
-    /* border: 1px solid blue; */
-    width: 40%;
-    /* text-align: center; */
-
-
-}
-
-.speciality:nth-child(even) {
-    margin-top: 60px;
-}
-
-.speciality-detail {
-    width: fit-content;
-    /* border: 1px solid magenta; */
-}
-
-.speciality-detail h2 {
-    font-size: 1.3vw;
-}
-
-.speciality-detail p {
-    font-size: 1.25vw;
-}
-
-.hover-underline-animation {
-    display: inline-block;
-    position: relative;
-    color:
-        #0087ca;
-}
-
-
-/*speciality heading-underline-css */
-.hover-underline-animation:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
+    align-items: center;
     left: 0;
-    background-color:
-        #0087ca;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    column-gap: 30px;
 }
 
-/*speciality heading-underline-css */
-.speciality:hover .hover-underline-animation:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+.child-div-work {
+    width: 280px;
+    height: 280px;
+    /* border: 1px solid red; */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.582);
+    border-radius: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.child-div-work h2{
+    font-size: 36px;
 }
 
-.speciality-img {
-    width: 100%;
-    overflow: hidden;
-    /* border: 1px solid yellow; */
-
-}
-.speciality-img img {
-    width: 100%;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
-
-.speciality-img:hover img {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-}
-
-.speciality-img video {
-    width: 100%;
-}
-
-@media screen and (max-width:1024px) {
-    #main-div {
-        display: block;
-    }
-
-    .speciality {
-        width: 100%;
-    }
-
-    .speciality-detail {
-        width: 100%;
-    }
-
-    .speciality-detail h2 {
-        font-size: 1.3vw;
-    }
-
-    .speciality-detail p {
-        font-size: 1.3vw;
-    }
-
-    .speciality-img {
-        width: 100%;
-    }
-}

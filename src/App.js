@@ -4,6 +4,7 @@ import NavBar from './components/navbar/navbar';
 import Header from './components/header/header';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './components/about/about';
+import MySpecialities from './components/mySpecialities/mySpecialities';
 import MyWork from './components/myWork/myWork';
 import Services from './components/services/services';
 import Contact from './components/contact/contact';
@@ -15,6 +16,7 @@ function App() {
     <NavBar />
     <Header />
     <About />
+    <MySpecialities />
     <MyWork />
     <Services />
     <Project />
