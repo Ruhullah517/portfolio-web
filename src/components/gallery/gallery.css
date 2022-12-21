@@ -1,0 +1,164 @@
+.main-gallery {
+    width: 100%;
+    display: flex;
+    padding: 25px;
+    height: 46vw;
+}
+
+
+.react-3d-carousel .slider-container {
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    width: 90%;
+    margin: 0px auto 0px -45%;
+}
+
+/* portrait crousel */
+.child-gallery {
+    width: 50%;
+}
+
+.child-gallery:nth-child(2) {
+    padding-top: 50px;
+
+}
+
+.mobile-h2 {
+    display: none;
+}
+
+.child-gallery h2 {
+    font-size: 3vw;
+    border-bottom: 1px solid;
+    width: fit-content;
+}
+
+.child-gallery p {
+    padding-top: 10px;
+}
+
+
+/* landscape crousel */
+.child-gallery1 {
+    width: 60%;
+}
+
+.child-gallery1:nth-child(1) {
+    padding-top: 50px;
+    width: 35%;
+}
+
+
+.child-gallery1 h2 {
+    font-size: 3vw;
+    border-bottom: 1px solid;
+    width: fit-content;
+}
+
+.child-gallery1 p {
+    padding-top: 10px;
+}
+
+
+
+@media screen and (max-width:980px) {
+
+    .main-gallery {
+        display: block;
+        height: max-content;
+
+    }
+
+
+    .react-3d-carousel .slider-container .slider-content {
+        position: relative;
+        left: 50%;
+        top: 0%;
+        width: 80%;
+        height: 80%;
+    }
+
+    .react-3d-carousel .slider-container {
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        width: 100%;
+        margin: 0px auto 0px -45%;
+    }
+
+    .child-gallery {
+        /* border: 1px solid yellow; */
+        width: 100%;
+        /* margin-top: 20px; */
+        padding: 20px;
+        height: 295px;
+    }
+
+
+    .mobile-h2 {
+        width: fit-content;
+        font-size: 2vw;
+        margin: auto;
+        display: block;
+    }
+
+    .child-gallery:nth-child(2) {
+        display: none;
+    }
+
+    .child-gallery1 {
+        padding: 5px;
+        width: 100%;
+        /* margin-top: 20px; */
+        height: 150px;
+    }
+
+    .child-gallery1:nth-child(1) {
+        display: none;
+
+    }
+
+    /* .main-gallery:nth-child(2) {
+
+        height: 48vw;
+
+    } */
+}
+
+@media screen and (max-width:821px) and (min-width:760px) {
+    .child-gallery {
+        width: 95%;
+        padding: 20px;
+        height: 660px;
+    }
+
+    .child-gallery1 {
+        padding: 5px;
+        width: 100%;
+        height: 420px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    #gallery-section {
+        width: 100%;
+        height: calc(100vh);
+    }
+
+    .child-gallery {
+        /* border: 1px solid yellow; */
+        width: 100%;
+        /* margin-top: 20px; */
+        padding: 5px;
+        height: 170px;
+    }
+
+    .child-gallery1 {
+        padding: 5px;
+        width: 100%;
+        /* margin-top: 20px; */
+        height: 100px;
+    }
+
+}

@@ -12,44 +12,50 @@ const MyWork = () => {
     return (<>
         <ScrollTrigger onEnter={() => { setCounterOn(true) }} onExit={() => [setCounterOn(false)]}>
             <section id="myWorkSect">
-                <div id="main-div-work">
-                    <h2 id="work-heading">myWork</h2>
-                    <div className="child-div-work">
-                        <div className="div-work">
-                            <div className="work-icons">
-                                <FaUserFriends size={140} />
+                <h2 id="work-heading">myWork</h2>
+                <div class="container">
+                    <div class="circle">
+                        <div class="aligner">
+                            <div className="div-work">
+                                <div className="work-icons">
+                                    <FaUserFriends className="icons" />
+                                </div>
+                                <h2>{counterOn && <CountUp start={0} end={200} duration={2} delay={0} />}+</h2>
+                                <p>Satisfied Customers</p>
                             </div>
-                            <h2>{counterOn && <CountUp start={0} end={200} duration={2} delay={0} />}+</h2>
-                            <p>Satisfied Customers</p>
                         </div>
                     </div>
-                    <div className="child-div-work">
-                        <div className="div-work">
-                            <div className="work-icons">
-                                <BsCameraReelsFill size={140} />
+                    <div class="circle">
+                        <div class="aligner">
+                            <div className="div-work">
+                                <div className="work-icons">
+                                    <BsCameraReelsFill className="icons" />
+                                </div>
+                                <h2>{counterOn && <CountUp start={0} end={80} duration={2} delay={0} />}+</h2>
+                                <p>Sessions</p>
                             </div>
-                            <h2>{counterOn && <CountUp start={0} end={80} duration={2} delay={0} />}+</h2>
-                            <p>Sessions</p>
                         </div>
                     </div>
-                    <div className="child-div-work">
-                        <div className="div-work">
-                            <div className="work-icons">
-                                <FaAward size={140} />
+                    <div class="circle">
+                        <div class="aligner">
+                            <div className="div-work">
+                                <div className="work-icons">
+                                    <FaAward className="icons" />
+                                </div>
+                                <h2>{counterOn && <CountUp start={0} end={50} duration={2} delay={0} />}+</h2>
+                                <p>Satisfied Customers</p>
                             </div>
-                            <h2>{counterOn && <CountUp start={0} end={50} duration={2} delay={0} />}+</h2>
-
-                            <p>Awards Achieved</p>
                         </div>
                     </div>
-                    <div className="child-div-work">
-                        <div className="div-work">
-                            <div className="work-icons">
-                                <FaCamera size={140} />
+                    <div class="circle">
+                        <div class="aligner">
+                            <div className="div-work">
+                                <div className="work-icons">
+                                    <FaCamera className="icons" />
+                                </div>
+                                <h2>{counterOn && <CountUp start={0} end={200} duration={2} delay={0} />}+</h2>
+                                <p>Completed Projects</p>
                             </div>
-                            <h2>{counterOn && <CountUp start={0} end={200} duration={2} delay={0} />}+</h2>
-
-                            <p>Completed Projects</p>
                         </div>
                     </div>
                 </div>

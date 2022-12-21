@@ -8,7 +8,7 @@ import MySpecialities from './components/mySpecialities/mySpecialities';
 import MyWork from './components/myWork/myWork';
 import Services from './components/services/services';
 import Contact from './components/contact/contact';
-import Project from './components/projects/project';
+import Gallery from './components/gallery/gallery';
 import Footer from './components/footer/footer';
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
     <About />
     <MySpecialities />
     <MyWork />
+    <Gallery />
     <Services />
-    <Project />
     <Contact />
     <Footer />
   </>);

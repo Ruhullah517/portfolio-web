@@ -1,55 +1,100 @@
+div {
+    box-sizing: border-box;
+}
+
 #work-heading {
-    position: absolute;
-    margin: auto;
-    top: 10%;
-    left: 0;
-    right: 0;
-    width: fit-content;
-    height: fit-content;
-    border-bottom: 1px solid;
-    font-size: 5vw;
+    margin-top: 50px;
+    font-size: 40px;
 }
 
 #myWorkSect {
-    width: 100%;
-    height: 800px;
-    background-image: url(/public/images/snow\ sarfa\ 2.jpg);
-    background-repeat: no-repeat;
+    background-image: url(/public/images/snow\ sarfa.JPG);
     background-attachment: fixed;
-    background-size: 100% 100%;
-    position: relative;
-    
+    background-position: top;
+    background-size: cover;
+
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    height: calc(100vh + 150px);
+    padding-top: 1.5rem !important;
 }
 
-
-#main-div-work {
-    /* border: 1px solid blue; */
-    width: fit-content;
-    position: absolute;
-    margin: auto;
+.container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    height: fit-content;
+    margin-top: 40px;
+    /* border: 1px solid #000000; */
+}
+
+.circle {
+    /* border: 5px solid #ff0000; */
+    background-color: #202938;
+    width: 22vw;
+    height: 22vw;
+
+    border-radius: 1000px;
+    margin: 0.5em;
+}
+
+.aligner {
+    display: flex;
     align-items: center;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    column-gap: 30px;
-}
-
-.child-div-work {
-    width: 280px;
-    height: 280px;
-    /* border: 1px solid red; */
+    justify-content: center;
+    height: 100%;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.582);
-    border-radius: 280px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
-.child-div-work h2{
-    font-size: 36px;
 }
 
+.div-work {
+    width: 100%;
+}
+
+.div-work h2 {
+    font-size: 2.6vw;
+}
+
+.div-work p {
+    font-size: 1vw;
+}
+
+.work-icons {
+    font-size: 8vw;
+    width: -webkit-fill-available;
+}
+
+@media screen and (max-width:980px) {
+    #myWorkSect {
+
+        background-position: bottom;
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        height: calc(100vh + 250px);
+        /* padding-top: 1.5rem !important; */
+    }
+
+    .circle {
+        /* border: 5px solid #ff0000; */
+        background-color: #202938;
+        width: 44vw;
+        height: 44vw;
+
+        border-radius: 1000px;
+        margin: 0.5em;
+    }
+
+    .work-icons {
+        font-size: 12vw;
+    }
+
+    .div-work h2 {
+        font-size: 5vw;
+    }
+
+    .div-work p {
+        font-size: 2vw;
+    }
+}
