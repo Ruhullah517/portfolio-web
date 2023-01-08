@@ -19,7 +19,7 @@ div {
     padding-top: 1.5rem !important;
 }
 
-.container {
+#myWorkSect .containerr {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

@@ -1,12 +1,12 @@
 import React from "react";
 import './about.css';
-
-
+import SkillsBar from "./skillbar";
+import { GiPhotoCamera } from "react-icons/gi";
 
 const about = () => {
     return (<>
         <section>
-            <h2>About Me</h2>
+            <h2> About Me <span><GiPhotoCamera/></span></h2>
             <section id="section-head">
                 <div className="about-section">
                     <img src="/images/mehmood - Copy.JPG" alt="" />
@@ -17,7 +17,9 @@ const about = () => {
                         consectetur maiores, iure nisi sed, cum quibusdam numquam? Aspernatur in nulla iure ex consectetur repellendus perferendis quasi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate error nulla illo dolor
                         consectetur maiores, iure nisi sed, cum quibusdam numquam? Aspernatur in nulla iure ex consectetur repellendus perferendis quasi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate error nulla illo dolor
                         consectetur maiores, iure nisi sed, cum quibusdam numquam? Aspernatur in nulla iure ex consectetur repellendus perferendis quasi.</p>
+                    <SkillsBar />
                 </div>
+
             </section>
 
 

@@ -12,8 +12,8 @@ const MyWork = () => {
     return (<>
         <ScrollTrigger onEnter={() => { setCounterOn(true) }} onExit={() => [setCounterOn(false)]}>
             <section id="myWorkSect">
-                <h2 id="work-heading">myWork</h2>
-                <div class="container">
+                <h2 id="work-heading">MyWork</h2>
+                <div class="containerr">
                     <div class="circle">
                         <div class="aligner">
                             <div className="div-work">

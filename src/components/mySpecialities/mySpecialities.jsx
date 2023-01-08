@@ -39,7 +39,7 @@ const mySpecialities = () => {
                 </div>
                 <div className="speciality">
                     <div className="speciality-detail">
-                        <h2 className="hover-underline-animation">04 - Drone Photography</h2>
+                        <h2 className="hover-underline-animation">04 - Aerial Cinematography</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur vero ad debitis ipsum laudantium eaque repellendus voluptate
                             excepturi, est nam voluptatum ab quod, accusamus officiis porro? Sed eaque aliquam totam?</p>
                     </div>
