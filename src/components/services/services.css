@@ -15,7 +15,7 @@
 
 .servicesBox {
     width: fit-content;
-    background-color: #33333e;
+    background-color: #021f26;
     text-align: center;
     padding: 40px;
 }
@@ -51,7 +51,7 @@
 }
 
 .pkg-Div button:hover {
-    background-color: black;
+    background-color: #bd9820;
     color: white;
 }
 

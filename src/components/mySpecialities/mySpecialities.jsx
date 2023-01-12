@@ -4,8 +4,8 @@ import ReactCompareImage from 'react-compare-image';
 
 const mySpecialities = () => {
     return (<>
-        <section>
-            <h2>mySpecialities</h2>
+        <section id="MySpecialities">
+            <h2>My Specialities</h2>
             <div id="main-div">
                 <div className="speciality">
                     <div className="speciality-detail">

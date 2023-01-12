@@ -5,7 +5,7 @@ import { GiPhotoCamera } from "react-icons/gi";
 
 const about = () => {
     return (<>
-        <section>
+        <section id="About">
             <h2> About Me <span><GiPhotoCamera/></span></h2>
             <section id="section-head">
                 <div className="about-section">

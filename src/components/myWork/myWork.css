@@ -17,6 +17,8 @@ div {
     background-repeat: no-repeat;
     height: calc(100vh + 150px);
     padding-top: 1.5rem !important;
+    background-blend-mode: soft-light;
+
 }
 
 #myWorkSect .containerr {
@@ -33,7 +35,7 @@ div {
 
 .circle {
     /* border: 5px solid #ff0000; */
-    background-color: #202938;
+    background-color: #021f26;
     width: 22vw;
     height: 22vw;
 
@@ -78,7 +80,7 @@ div {
 
     .circle {
         /* border: 5px solid #ff0000; */
-        background-color: #202938;
+        background-color: #021f26;
         width: 44vw;
         height: 44vw;
 

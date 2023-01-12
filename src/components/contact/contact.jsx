@@ -1,6 +1,7 @@
 import React from "react";
 import './contact.css';
 import { SiInstagram, SiFacebook, SiTiktok } from "react-icons/si";
+import GoogLocation from "../map/map";
 import { useForm, ValidationError } from '@formspree/react';
 import { Link } from "react-router-dom";
 
@@ -12,7 +13,7 @@ const Contact = () => {
     }
 
     return (<>
-        <section>
+        <section id="ContactUs">
             <h2>Contact US</h2>
             <div className="background">
                 <div className="container">
@@ -35,7 +36,7 @@ const Contact = () => {
                                     <span>CONTACT</span>
                                     <span>US</span>
                                 </div>
-                                
+
                                 <div className="app-contact">
                                     <a
                                         class='social-icon-link github'
@@ -108,7 +109,7 @@ const Contact = () => {
 
                 </div>
             </div>
-
+            <GoogLocation />
         </section>
     </>)
 }

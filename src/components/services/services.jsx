@@ -6,7 +6,7 @@ import './services.css'
 const services = () => {
     return (<>
         <section id="services-section">
-            <h2>services</h2>
+            <h2>Services</h2>
             <div id="servcies-main">
                 <div id="center-box">
                     <div className="servicesBox">
@@ -19,7 +19,7 @@ const services = () => {
                                 <li>ONLY Aerial cinematography</li>
                                 <li>ONLY Get-Me-A-TourGuide</li>
                             </ul>
-                            <button>Book Now</button>
+                            <a href="#ContactUs"><button>Book Now</button></a>
                         </div>
                     </div>
                     <div className="servicesBox">
@@ -33,7 +33,7 @@ const services = () => {
                                 <li>ONLY Get-Me-A TourGuide & VedioShooting</li>
                                 <li>ONLY WEDDING SHOOTS</li>
                             </ul>
-                            <button>Book Now</button>
+                            <a href="#ContactUs"><button>Book Now</button></a>
                         </div>
                     </div>
                     <div className="servicesBox">
@@ -46,7 +46,7 @@ const services = () => {
                                 <li>INCLUDES Rent-A-Car</li>
                                 <li>INCLUDES Get-Me-A-TourGuide</li>
                             </ul>
-                            <button>Book Now</button>
+                            <a href="#ContactUs"><button>Book Now</button></a>
                         </div>
                     </div>
                 </div>

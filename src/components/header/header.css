@@ -9,7 +9,7 @@ header {
 
 #headerImg {
     width: 100%;
-    opacity: 80%;
+    opacity: 45%;
 }
 
 #header-div {
@@ -61,7 +61,7 @@ font-family: 'Montserrat', sans-serif; */
     /* border thickness */
     --s: .45em;
     /* size of the corner */
-    --color:white;
+    --color:#bd9820;
 
     padding: calc(.5em + var(--s)) calc(.9em + var(--s));
     color: var(--color);
@@ -93,7 +93,8 @@ font-family: 'Montserrat', sans-serif; */
     --_p: 0px;
     outline-color: var(--color);
     outline-offset: .05em;
-    background-color: #434554;
+    background-color: rgba(0, 0, 0, 0.404);
+    
 }
 
 .button-89:active {

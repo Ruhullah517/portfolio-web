@@ -1,6 +1,6 @@
 import React from "react";
 import './header.css'
-
+// import { a } from "react-router-dom";
 
 
 const header = () => {
@@ -8,9 +8,9 @@ const header = () => {
         <header>
             <img id="headerImg" src="/images/IMG_9095.jpg" alt="header-pic" />
             <div id="header-div">
-                <h1>Mehmood Vazyree</h1>
+                <h1>Mehmood Vzyree</h1>
             </div>
-            <button class="button-89" role="button">Hire Me !</button>
+            <a href="#ContactUs"><button className="button-89" role="button">Hire Me !</button></a>
 
         </header>
     </>)

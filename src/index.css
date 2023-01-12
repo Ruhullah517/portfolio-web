@@ -20,13 +20,15 @@ body {
 }
 
 a {
-  color: white;
+  color: #bd9820;
 }
+
 
 section {
   transition: var(--transition);
   padding: 1.5rem;
-  border: 1px solid red;
+  padding-top: 40px;
+  /* border: 1px solid red; */
 }
 
 section>h2 {
@@ -34,5 +36,10 @@ section>h2 {
   font-size: 3.5vw;
   font-family: 'Marcellus', serif;
   border-bottom: 1px solid;
+  color: #bd9820;
 
+}
+
+.df-bottombar-branding {
+  display: none;
 }
