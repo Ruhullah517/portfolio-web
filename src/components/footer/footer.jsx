@@ -10,7 +10,7 @@ const footer = () => {
                 <div className="row">
                     <div className="col-md-8 col-sm-6 col-xs-12">
                         <p className="copyright-text">
-                            Copyright © 2022 Mehmood Vazyree. All Rights Reserved.
+                            Copyright © 2023 Mehmood Vzyree. All Rights Reserved.
                         </p>
                     </div>
                     <div className="col-md-4 col-sm-6 col-xs-12">
